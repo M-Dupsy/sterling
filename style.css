@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0px 5px 14px -3px rgba(148,136,148,1);
+-moz-box-shadow: 0px 5px 14px -3px rgba(148,136,148,1);
+box-shadow: 0px 5px 14px -3px rgba(148,136,148,1);
+  gap: 20%;
+  width: 100%;
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.logo img {
+  height: 8vh;
+  margin-left: 80px;
+}
+.nav {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  /* width: 40%; */
+  padding-left: 10px;
+}
+.nav ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.nav ul li:hover{
+    color: #DB353A;
+    transition: 0.5s ease-in-out;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./images/pexels-kampus-production-8204325.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    margin-top: 100px;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    padding-top: 180px;
+    width: 100%;
+}
+.txt h2{
+    /* border: 1px solid red; */
+    width: 50%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.btn button{
+    height: 6vh;
+    padding: 0px 65px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #DB353A;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+footer{
+    background-color: #353535;
+    padding: 20px;
+    width: 100%;
+    height: 20vh;
+}
+.footer img{
+    height: 70px;
+}
+.logo1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+.footer p{
+    /* border: 1px solid green; */
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
